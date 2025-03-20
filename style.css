@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 1150px;
+  height: auto;
+}
+.box {
+  border-radius: 10px;
+  color: #f8ffff;
+  padding: 30px;
+  box-shadow: 5px 20px 70px rgba(0, 0, 0, 0.4);
+}
+.box1 {
+  grid-column: 1/3;
+  height: 287px;
+  width: 540px;
+  background-color: #733fc8;
+  position: relative;
+  align-self: center;
+  margin-right: 33px;
+  margin-bottom: 33px;
+  grid-column: 1/3;
+  height: 287px;
+  width: 540px;
+  background-color: #733fc8;
+  margin-right: 33px;
+  margin-bottom: 33px;
+  padding-bottom: 30px;
+}
+.box1head {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+#img1 {
+  border-radius: 50%;
+  border: 2px solid #a775f2;
+  width: 33px;
+  height: 33px;
+}
+.b1-picname {
+  font-size: 13px;
+  margin-left: 14px;
+}
+#daniel-1 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 1px;
+}
+#daniel-2 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: -0.5px;
+}
+.box1content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  position: relative;
+  z-index: 2;
+}
+
+#b1c-para1 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 11px;
+  margin-bottom: 18px;
+  line-height: 1.2;
+}
+#b1c-para2 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13.5px;
+  line-height: 1.3;
+}
+#b1c-para1,
+#b1c-para2 {
+  position: relative;
+  z-index: 2;
+}
+.quotation {
+  position: absolute;
+  top: 0px;
+  right: 67px;
+  z-index: 1;
+}
+.box2 {
+  height: 287px;
+  background-color: #49556b;
+  margin-right: 33px;
+  position: static;
+  z-index: 2;
+}
+.box2head {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+#img2 {
+  border-radius: 50%;
+  border: 2px solid #49556b;
+  width: 33px;
+  height: 33px;
+}
+.b2-picname {
+  font-size: 13px;
+  margin-left: 14px;
+}
+#jonathan-1 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 1px;
+}
+#jonathan-2 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: -0.5px;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+#b2c-para1 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 11px;
+  margin-bottom: 18px;
+  line-height: 1.2;
+  position: static;
+  z-index: 3;
+}
+#b2c-para2 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13.5px;
+  line-height: 1.3;
+}
+.box2content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.box3 {
+  grid-area: 1/4/3/5;
+  height: 607px;
+  background-color: #ffffff;
+}
+.box3head {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+#img3 {
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  width: 33px;
+  height: 33px;
+}
+.b3-picname {
+  font-size: 13px;
+  color: hsl(217, 19%, 35%);
+  margin-left: 14px;
+}
+#kira-1 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 1px;
+}
+#kira-2 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: -0.5px;
+}
+.box3content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: hsl(217, 19%, 35%);
+}
+#b3c-para1 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 550;
+  letter-spacing: 0.3px;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 11px;
+  margin-bottom: 18px;
+  line-height: 1.2;
+  position: static;
+  z-index: 3;
+}
+#b3c-para2 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15.5px;
+  line-height: 1.2;
+}
+.box4 {
+  height: 287px;
+  background-color: #ffffff;
+  margin-right: 33px;
+}
+.box4head {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+#img4 {
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  width: 33px;
+  height: 33px;
+}
+.b4-picname {
+  font-size: 13px;
+  color: hsl(217, 19%, 35%);
+  margin-left: 14px;
+}
+#Jeanette-1 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 1px;
+}
+#Jeanette-2 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: -0.5px;
+}
+.box4content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: hsl(217, 19%, 35%);
+}
+#b4c-para1 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 21px;
+  margin-top: 11px;
+  margin-bottom: 18px;
+  line-height: 1.2;
+  position: static;
+  z-index: 3;
+}
+#b4c-para2 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13.5px;
+  line-height: 1.3;
+}
+.box5 {
+  grid-column: 2/4;
+  height: 287px;
+  /* width: 540px; */
+  background-color: #191f2d;
+  margin-right: 33px;
+}
+.box5head {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+#img5 {
+  border-radius: 50%;
+  border: 2px solid #a775f2;
+  width: 33px;
+  height: 33px;
+}
+.b5-picname {
+  font-size: 13px;
+  color: #ffffff;
+  margin-left: 14px;
+}
+#Patrick-1 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 1px;
+}
+#Patrick-2 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: -0.5px;
+}
+.box5content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: FFFFFF;
+}
+#b5c-para1 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 11px;
+  margin-bottom: 18px;
+  line-height: 1.2;
+  position: static;
+  z-index: 3;
+}
+#b5c-para2 {
+  font-family: "Barlow Semi Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13.2px;
+  line-height: 1.3;
+  letter-spacing: 0.1px;
+}
