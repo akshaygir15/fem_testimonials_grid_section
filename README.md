@@ -1,3 +1,6 @@
+## Live Demo
+Check out the live version of this project here: [Live Demo](https://akshaygir15.github.io/fem_testimonials_grid_section/)
+
 # Frontend Mentor - Testimonials grid section
 
 ![Design preview for the Testimonials grid section coding challenge](./preview.jpg)
